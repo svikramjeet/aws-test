@@ -1,95 +1,87 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="author" content="">
 
-        <title>Laravel</title>
+    <title>Welcome to Elsie</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-        </style>
-    </head>
+</head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="logo">
+                        <a href="#"><img src="{{url('images/logo_a.svg')}}" alt=""/></a>
+                    </div>
                 </div>
             </div>
         </div>
+    </header>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="about-col col-sm-6">
+                        <h1>Making everyday life easier.</h1>
+                        <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
+                        <a class="btn btn-primary" href="#">Register for early access</a>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="service-col col-sm-6">
+                        <h2>Simplify life</h2>
+                        <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="register-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="register-col text-center">
+                        <div class="register-col-text">
+                            <h2>Ready to make managing your life easier?</h2>
+                            <a class="btn btn-primary" href="#">Register for early access</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="social-network-col text-center">
+                        <ul>
+                            <li><a href="javascriptavoiid"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
+                            <li><a href="#"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
+                            <li><a href="#"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
+                        </ul>
+                    </div>
+                    <div class="copy-right-col">
+                        <p>Copyright © Elsie Life Ltd. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{{url('js/bootstrap.min.js')}}"></script>
+
     </body>
 </html>

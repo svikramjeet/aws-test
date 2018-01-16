@@ -1,0 +1,161 @@
+body {
+	font-size: 18px;
+	color: #161C22;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 40px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 0px;
+}
+
+.btn-primary {
+	border-radius: 24px;	
+	background-color: #1CBFE0;
+	color: #FFFFFF;	
+	font-size: 16px;	
+	font-weight: 500;	
+	line-height: 24px;
+	padding: 12px 32px;
+	text-transform: uppercase;
+	border: none;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background-color: #19B2D1;
+}
+
+header {
+	padding: 40px 0px 0px 0px;
+}
+
+.social-network-col ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.social-network-col ul li {
+	list-style: none;
+	padding: 0px 33px 0px 0px;
+	display: inline-block;
+}
+
+footer {
+	padding: 40px 0px 40px 0px;
+}
+
+.copy-right-col {
+	padding: 42px 0 0 0px;
+}
+
+.copy-right-col p {
+	color: #161C22;	
+	font-size: 12px;	
+	line-height: 16px;	
+	text-align: center;
+}
+
+.register-section {
+	background-color: #06064F;
+	min-height: 232px;
+	display: flex;
+  	display: -webkit-flex;
+  	flex-direction: column;
+    -webkit-flex-direction: column;
+  	justify-content: center;
+    -webkit-justify-content: center;
+    margin: 115px 0px 0px 0px;
+}
+
+.register-col {
+	position: relative;
+}
+
+.register-col:after {
+	position: absolute;
+	content: '';
+	background-image: url('../images/house.png');
+	background-repeat: no-repeat;
+	left: 0px;
+	bottom: 0px;
+	width: 560px;
+	height: 472px;
+}
+
+.register-col h2 {
+	color: #fff;
+	margin: 0px 0px 24px 0px;
+}
+
+.register-col-text {
+	position: relative;
+	z-index: 2;
+}
+
+.about-section {
+	margin: 170px 0 0 0px;
+}
+
+.about-col {
+	padding: 0px;
+}
+
+.about-col h1 {
+	line-height: 48px;
+	margin: 0px 0 32px 0px;
+}
+
+.about-col p {
+	font-size: 24px;	
+	font-weight: 300;	
+	line-height: 32px;
+	margin: 0px 0px 32px 0px;
+}
+
+.service-col {
+	padding: 0px;
+	position: relative;
+	margin: 152px 0 120px 90px;
+}
+
+.service-col:before {
+	position: absolute;
+	left: 0px;
+	content: '';
+	background: linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
+	width: 16px;
+	height: 256px;
+	border-radius: 8px;
+	left: -40px;
+
+}
+
+.service-col h2 {
+	margin: 0px 0px 16px 0px;
+	background: linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
+	background: -webkit-linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 32px;
+}
+
+.service-col p {
+	line-height: 32px;
+}
+
