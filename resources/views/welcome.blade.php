@@ -6,7 +6,7 @@
     <meta name="author" content="">
 
     <title>Welcome to Elsie</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/wtx1oeo.css">
     <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
 
@@ -83,5 +83,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{url('js/bootstrap.min.js')}}"></script>
 
+  
     </body>
 </html>
