@@ -47,32 +47,6 @@ header {
 	padding: 40px 0px 0px 0px;
 }
 
-.social-network-col ul {
-	margin: 0px;
-	padding: 0px;
-}
-
-.social-network-col ul li {
-	list-style: none;
-	padding: 0px 33px 0px 0px;
-	display: inline-block;
-}
-
-footer {
-	padding: 40px 0px 40px 0px;
-}
-
-.copy-right-col {
-	padding: 42px 0 0 0px;
-}
-
-.copy-right-col p {
-	color: #161C22;	
-	font-size: 12px;	
-	line-height: 16px;	
-	text-align: center;
-}
-
 .register-section {
 	background-color: #06064F;
 	min-height: 232px;
@@ -114,6 +88,34 @@ footer {
 	margin: 170px 0 0 0px;
 }
 
+.about-row {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+.about-row:after {
+	position: absolute;
+	content: '';
+	background-image: url('../images/image01.png');
+	background-repeat: no-repeat;
+	right: 0px;
+	top: -200px;
+	width: 560px;
+	height: 825px;
+}
+
+.about-row-left:after {
+	position: absolute;
+	content: '';
+	background-image: url('../images/image02.png');
+	background-repeat: no-repeat;
+	left: 0px;
+	top: -200px;
+	width: 368px;
+	height: 477px;
+}
+
 .about-col {
 	padding: 0px;
 }
@@ -142,7 +144,7 @@ footer {
 	content: '';
 	background: linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
 	width: 16px;
-	height: 256px;
+	height: 250px;
 	border-radius: 8px;
 	left: -40px;
 
@@ -150,8 +152,8 @@ footer {
 
 .service-col h2 {
 	margin: 0px 0px 16px 0px;
-	background: linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
-	background: -webkit-linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
+	background: linear-gradient(right, #06064F 0%, #1CBFE0 100%);
+  	background: -webkit-linear-gradient(right, #1CBFE0, #06064F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 32px;
@@ -161,3 +163,28 @@ footer {
 	line-height: 32px;
 }
 
+footer {
+	padding: 40px 0px 40px 0px;
+}
+
+.social-network-col ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.social-network-col ul li {
+	list-style: none;
+	padding: 0px 33px 0px 0px;
+	display: inline-block;
+}
+
+.copy-right-col {
+	padding: 42px 0 0 0px;
+}
+
+.copy-right-col p {
+	color: #161C22;	
+	font-size: 12px;	
+	line-height: 16px;	
+	text-align: center;
+}

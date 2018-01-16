@@ -6,6 +6,7 @@
     <meta name="author" content="">
 
     <title>Welcome to Elsie</title>
+    <link rel="icon" href="{{url('images/favicon.png')}}" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.typekit.net/wtx1oeo.css">
     <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
@@ -29,17 +30,35 @@
     <section class="about-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <div class="about-col col-sm-6">
-                        <h1>Making everyday life easier.</h1>
-                        <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
-                        <a class="btn btn-primary" href="#">Register for early access</a>
+                <div class="about-row">
+                    <div class="col-xs-12">
+                        <div class="about-col col-sm-6">
+                            <h1>Making everyday life easier.</h1>
+                            <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
+                            <a class="btn btn-primary" href="#">Register for early access</a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="service-col col-sm-6">
+                            <h2>Simplify life</h2>
+                            <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
-                    <div class="service-col col-sm-6">
-                        <h2>Simplify life</h2>
-                        <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="about-row about-row-left">
+                    <div class="col-xs-12">
+                        <div class="service-col-two col-sm-6"></div>
+                        <div class="service-col col-sm-6">
+                            <h2>Simplify life</h2>
+                            <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
+                        </div>
                     </div>
                 </div>
             </div>
