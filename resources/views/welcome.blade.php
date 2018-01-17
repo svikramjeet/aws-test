@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="author" content="">
 
-    <title>Welcome to Elsie</title>
+    <title>Elsie | Making everyday life easier</title>
     <link rel="icon" href="{{url('images/favicon.png')}}" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.typekit.net/wtx1oeo.css">
     <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
@@ -107,9 +107,9 @@
                 <div class="col-xs-12">
                     <div class="social-network-col text-center">
                         <ul>
-                            <li><a href="https://twitter.com/myelsielife"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
-                            <li><a href="https://www.facebook.com/myelsielife/"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
-                            <li><a href="https://www.instagram.com/myelsielife/"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
+                            <li><a target="blank" href="https://twitter.com/myelsielife"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
+                            <li><a target="blank" href="https://www.facebook.com/myelsielife/"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
+                            <li><a target="blank" href="https://www.instagram.com/myelsielife/"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
                         </ul>
                     </div>
                     <div class="copy-right-col">
@@ -133,7 +133,7 @@
                         <form method="post" action="{{url('/subscribe')}}" >
                         {{ csrf_field() }}
                             <div class="form-group">
-                                <input class="form-control" name="first_name" type="text" placeholder="Name">
+                                <input class="form-control" name="first_name" type="text" placeholder="First Name">
                             </div>
                             <div class="form-group">
                                 <input class="form-control" name="last_name" type="text" placeholder="Last Name">
