@@ -8,6 +8,10 @@ body {
 
 a {
 	outline: none;
+	transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-ms-transition: all 0.3s ease-in-out 0s;
 }
 
 a:hover,
@@ -29,6 +33,10 @@ h2 {
 	font-size: 24px;
 	margin: 0px;
 	font-weight: bold;
+}
+
+.no-pad {
+	padding: 0px;
 }
 
 .btn-primary {
@@ -78,7 +86,7 @@ header {
     -webkit-flex-direction: column;
   	justify-content: center;
     -webkit-justify-content: center;
-    margin: 115px 0px 0px 0px;
+    margin: 225px 0px 0px 0px;
 }
 
 .register-col {
@@ -128,14 +136,14 @@ header {
 }
 
 .about-row-left:after {
-	position: absolute;
-	content: '';
-	background-image: url('../images/image02.png');
-	background-repeat: no-repeat;
-	left: 0px;
-	top: -200px;
-	width: 368px;
-	height: 477px;
+	background-image: url("../images/image02.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 477px;
+    left: -105px;
+    position: absolute;
+    top: -120px;
+    width: 368px;
 }
 
 .about-col {
@@ -145,6 +153,7 @@ header {
 .about-col h1 {
 	line-height: 48px;
 	margin: 0px 0 32px 0px;
+	padding: 0px 10px 0px 0px;
 }
 
 .about-col p {
@@ -154,10 +163,25 @@ header {
 	margin: 0px 0px 32px 0px;
 }
 
+.about-section-third {
+	margin: 132px 0px 0px 0px;
+}
+
+.about-section-third .about-row:after {
+	background-image: url("../images/image03.png");
+	width: 425px;
+	height: 509px;
+	top: -71px;
+}
+
+.about-section-third .service-col  {
+	margin: 0px 0 120px 115px;
+}
+
 .service-col {
 	padding: 0px;
 	position: relative;
-	margin: 152px 0 120px 90px;
+	margin: 152px 0 120px 130px;
 }
 
 .service-col:before {
@@ -182,6 +206,18 @@ header {
 	line-height: 32px;
 }
 
+.about-section-second {
+	margin: 0px;
+}
+
+.about-row-left .service-col:before {
+	height: 224px;
+}
+
+.about-row-left .service-col {
+    margin: 15px 0 0 0px;
+}
+
 footer {
 	padding: 40px 0px 40px 0px;
 }
@@ -193,8 +229,17 @@ footer {
 
 .social-network-col ul li {
 	list-style: none;
-	padding: 0px 33px 0px 0px;
+	padding: 0px 6px 0px 0px;
 	display: inline-block;
+}
+
+.social-network-col ul li a {
+	padding: 10px;
+}
+
+.social-network-col ul li a:hover {
+	background-color: #E7E7EA;
+	border-radius: 50%;
 }
 
 .copy-right-col {

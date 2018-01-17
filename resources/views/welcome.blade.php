@@ -49,15 +49,34 @@
         </div>
     </section>
 
-    <section class="about-section">
+    <section class="about-section about-section-second">
         <div class="container">
             <div class="row">
                 <div class="about-row about-row-left">
                     <div class="col-xs-12">
-                        <div class="service-col-two col-sm-6"></div>
-                        <div class="service-col col-sm-6">
-                            <h2>Simplify life</h2>
-                            <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-6 no-pad">
+                            <div class="service-col">
+                                <h2>Be in control</h2>
+                                <p>Gain deep insight into your current usage and spending through Elsie's amazing visuals. Elsie tells you what you need to know when you need to know it. You always end up with the best deals as Elsie acts a marketplace for suppliers and vendors to bid for your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section about-section-third">
+        <div class="container">
+            <div class="row">
+                <div class="about-row">
+                    <div class="col-xs-12">
+                        <div class="col-sm-8">
+                            <div class="service-col ">
+                                <h2>Stay protected</h2>
+                                <p>Elsie makes you super organised and it's as simple as that. By connecting your home, it's contents and your accounts Elsie will ensure that nothing is neglected. Elsie highlights the areas requiring your attention and provides you with all the actions you need to take to ensure that you, your family and the things you care about are always protected.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
