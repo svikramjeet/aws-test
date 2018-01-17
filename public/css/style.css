@@ -196,7 +196,7 @@ header {
 }
 
 .about-section-third .service-col  {
-	margin: 0px 0 120px 115px;
+	margin: 0px 0 120px 90px;
 }
 
 .service-col {
@@ -239,6 +239,11 @@ header {
 
 .about-row-left .service-col {
     margin: 15px 0 0 0px;
+    padding: 0 0 0 30px;
+}
+
+.about-row-left .service-col:before {
+	left: -10px;
 }
 
 footer {
