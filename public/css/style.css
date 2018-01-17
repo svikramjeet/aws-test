@@ -4,6 +4,7 @@ body {
 	font-size: 18px;
 	color: #161C22;
 	font-family: "objektiv-mk1",sans-serif;
+	background-color: #f2f2f2;
 }
 
 a {
@@ -33,6 +34,17 @@ h2 {
 	font-size: 24px;
 	margin: 0px;
 	font-weight: bold;
+}
+
+.custom-container {
+	background-color: #fff;
+	margin: 0 auto;
+	width: 1280px;
+}
+
+.custom-container .container {
+	width: 100%;
+	padding: 0px 0px 0px 9.5%;
 }
 
 .no-pad {
@@ -86,7 +98,7 @@ header {
     -webkit-flex-direction: column;
   	justify-content: center;
     -webkit-justify-content: center;
-    margin: 195px 0px 0px 0px;
+    margin: 0px;
 }
 
 .register-col {
@@ -98,7 +110,7 @@ header {
 	content: '';
 	background-image: url('../images/house.png');
 	background-repeat: no-repeat;
-	left: 15px;
+	left: 40px;
 	bottom: -67px;
 	width: 560px;
 	height: 472px;
@@ -115,7 +127,7 @@ header {
 }
 
 .about-section {
-	margin: 170px 0 0 0px;
+	margin: 120px 0 0 0px;
 }
 
 .about-row {
@@ -129,10 +141,14 @@ header {
 	content: '';
 	background-image: url('../images/image01.png');
 	background-repeat: no-repeat;
-	right: 0px;
-	top: -200px;
+	right: 15px;
+	top: -150px;
 	width: 560px;
 	height: 825px;
+}
+
+.about-section-second .about-row-left {
+	position: inherit;
 }
 
 .about-row-left:after {
@@ -140,7 +156,7 @@ header {
     background-repeat: no-repeat;
     content: "";
     height: 477px;
-    left: -105px;
+    left: 0px;
     position: absolute;
     top: -120px;
     width: 368px;
@@ -166,6 +182,10 @@ header {
 
 .about-section-third {
 	margin: 132px 0px 0px 0px;
+}
+
+.about-section-third .about-row {
+	padding-bottom: 195px;
 }
 
 .about-section-third .about-row:after {
@@ -209,6 +229,7 @@ header {
 
 .about-section-second {
 	margin: 0px;
+	position: relative;
 }
 
 .about-row-left .service-col:before {

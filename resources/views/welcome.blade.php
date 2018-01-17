@@ -15,6 +15,7 @@
 </head>
     <body>
 
+    <div class="custom-container">
     <header>
         <div class="container">
             <div class="row">
@@ -83,6 +84,7 @@
             </div>
         </div>
     </section>
+    </div>
 
     <section class="register-section">
         <div class="container">
@@ -105,9 +107,9 @@
                 <div class="col-xs-12">
                     <div class="social-network-col text-center">
                         <ul>
-                            <li><a href="javascriptavoiid"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
-                            <li><a href="#"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
-                            <li><a href="#"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
+                            <li><a href="https://twitter.com/myelsielife"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
+                            <li><a href="https://www.facebook.com/myelsielife/"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
+                            <li><a href="https://www.instagram.com/myelsielife/"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
                         </ul>
                     </div>
                     <div class="copy-right-col">
