@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="logo">
-                        <a href="#"><img src="{{url('images/logo_a.svg')}}" alt=""/></a>
+                        <a href="#"><img src="{{url('images/logo_b.svg')}}" alt=""/></a>
                     </div>
                 </div>
             </div>

@@ -177,7 +177,7 @@ header {
 	font-weight: 300;	
 	line-height: 32px;
 	margin: 0px 0px 32px 0px;
-	padding: 0 10px 0 0px;
+	padding: 0 20px 0 0px;
 }
 
 .about-section-third {
@@ -197,6 +197,10 @@ header {
 
 .about-section-third .service-col  {
 	margin: 0px 0 120px 90px;
+}
+
+.about-section-third .service-col p {
+	padding: 0 80px 0 0px;
 }
 
 .service-col {
