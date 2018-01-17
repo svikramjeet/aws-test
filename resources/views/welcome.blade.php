@@ -128,6 +128,8 @@
                     </button>
                     @if(session('success'))
                         <span>Thank you for registering your interest. We will be in touch with updates very soon.</span>
+                    elseif(session('error'))
+                        <span>Error from MailChimp</span>
                     @else
                     <h2>Ready to make managing your life easier?</h2>
                     <div class="modal-form">
