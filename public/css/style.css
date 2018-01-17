@@ -86,7 +86,7 @@ header {
     -webkit-flex-direction: column;
   	justify-content: center;
     -webkit-justify-content: center;
-    margin: 225px 0px 0px 0px;
+    margin: 195px 0px 0px 0px;
 }
 
 .register-col {
@@ -98,8 +98,8 @@ header {
 	content: '';
 	background-image: url('../images/house.png');
 	background-repeat: no-repeat;
-	left: 0px;
-	bottom: 0px;
+	left: 15px;
+	bottom: -67px;
 	width: 560px;
 	height: 472px;
 }
@@ -161,6 +161,7 @@ header {
 	font-weight: 300;	
 	line-height: 32px;
 	margin: 0px 0px 32px 0px;
+	padding: 0 10px 0 0px;
 }
 
 .about-section-third {
