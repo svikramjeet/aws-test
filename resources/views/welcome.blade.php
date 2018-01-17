@@ -37,6 +37,9 @@
                 <div class="about-row">
                     <div class="col-xs-12">
                         <div class="about-col col-sm-6">
+                            <div class="mobile-view-img text-center">
+                                <img src="{{url('images/mobile_image01.png')}}" alt=""/>
+                            </div>
                             <h1>Making everyday life easier.</h1>
                             <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
                             <a class="btn btn-primary" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
@@ -62,7 +65,10 @@
                     <div class="col-xs-12">
                         <div class="col-sm-4"></div>
                         <div class="col-sm-6 no-pad">
-                            <div class="service-col">
+                            <div class="mobile-view-img text-center">
+                                <img src="{{url('images/mobile_image02.png')}}" alt=""/>
+                            </div>
+                            <div class="service-col">                                
                                 <h2>Be in control</h2>
                                 <p>Gain deep insight into your current usage and spending through Elsie's amazing visuals. Elsie tells you what you need to know when you need to know it. You always end up with the best deals as Elsie acts a marketplace for suppliers and vendors to bid for your business.</p>
                             </div>
@@ -80,6 +86,9 @@
                 <div class="padding-left">
                 <div class="about-row">
                     <div class="col-xs-12">
+                        <div class="mobile-view-img text-center">
+                            <img src="{{url('images/mobile_image03.png')}}" alt=""/>
+                        </div>
                         <div class="col-sm-8">
                             <div class="service-col ">
                                 <h2>Stay protected</h2>
