@@ -202,7 +202,8 @@ header {
 .service-col {
 	padding: 0px;
 	position: relative;
-	margin: 152px 0 120px 130px;
+	margin: 152px 0 120px 105px;
+	padding: 0px 0 0 25px;
 }
 
 .service-col:before {
@@ -213,7 +214,7 @@ header {
 	width: 16px;
 	height: 250px;
 	border-radius: 8px;
-	left: -40px;
+	left: -15px;
 
 }
 
