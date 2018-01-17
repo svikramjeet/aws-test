@@ -16,21 +16,24 @@
     <body>
 
     <div class="custom-container">
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="logo">
-                        <a href="#"><img src="{{url('images/logo_b.svg')}}" alt=""/></a>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="padding-left">
+                        <div class="col-xs-12">
+                            <div class="logo">
+                                <a href="#"><img src="{{url('images/logo_b.svg')}}" alt=""/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
     <section class="about-section">
         <div class="container">
             <div class="row">
+                <div class="padding-left">
                 <div class="about-row">
                     <div class="col-xs-12">
                         <div class="about-col col-sm-6">
@@ -46,6 +49,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -53,6 +57,7 @@
     <section class="about-section about-section-second">
         <div class="container">
             <div class="row">
+                <div class="padding-left">
                 <div class="about-row about-row-left">
                     <div class="col-xs-12">
                         <div class="col-sm-4"></div>
@@ -64,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -71,6 +77,7 @@
     <section class="about-section about-section-third">
         <div class="container">
             <div class="row">
+                <div class="padding-left">
                 <div class="about-row">
                     <div class="col-xs-12">
                         <div class="col-sm-8">
@@ -80,6 +87,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

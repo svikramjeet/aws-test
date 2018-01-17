@@ -44,6 +44,11 @@ h2 {
 
 .custom-container .container {
 	width: 100%;
+}
+
+.padding-left {
+	width: 100%;
+	float: left;
 	padding: 0px 0px 0px 9.5%;
 }
 
@@ -141,7 +146,7 @@ header {
 	content: '';
 	background-image: url('../images/image01.png');
 	background-repeat: no-repeat;
-	right: 15px;
+	right: 0px;
 	top: -150px;
 	width: 560px;
 	height: 825px;
