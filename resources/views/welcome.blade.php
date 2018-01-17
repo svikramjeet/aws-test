@@ -35,7 +35,7 @@
                         <div class="about-col col-sm-6">
                             <h1>Making everyday life easier.</h1>
                             <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
-                            <a class="btn btn-primary" href="#">Register for early access</a>
+                            <a class="btn btn-primary" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
                         </div>
                     </div>
                     <div class="col-xs-12">
@@ -72,7 +72,7 @@
                     <div class="register-col text-center">
                         <div class="register-col-text">
                             <h2>Ready to make managing your life easier?</h2>
-                            <a class="btn btn-primary" href="#">Register for early access</a>
+                            <a class="btn btn-primary" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
                         </div>
                     </div>
                 </div>
@@ -98,6 +98,37 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="register-modal modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm inside"> 
+            <div class="modal-content">                
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <img src="{{url('images/ic_close_16.svg')}}" alt=""/>
+                    </button>
+                    <h2>Ready to make managing your life easier?</h2>
+                    <div class="modal-form">
+                        <form>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Last Name">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Email Address">
+                            </div>
+                            <div class="form-group text-center">
+                                <input class="btn btn-primary" type="button" value="Register Now">
+                            </div>
+                        </form>
+                    </div>
+                </div>                
+            </div>      
+        </div>
+    </div>
+  <!-- Modal End -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{url('js/bootstrap.min.js')}}"></script>
