@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="author" content="">
 
-    <title>Welcome to Elsie</title>
+    <title>Elsie | Making everyday life easier</title>
     <link rel="icon" href="{{url('images/favicon.png')}}" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.typekit.net/wtx1oeo.css">
     <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
@@ -14,22 +14,26 @@
 
 </head>
     <body>
-  
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="logo">
-                        <a href="#"><img src="{{url('images/logo_a.svg')}}" alt=""/></a>
+
+    <div class="custom-container">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="padding-left">
+                        <div class="col-xs-12">
+                            <div class="logo">
+                                <a href="#"><img src="{{url('images/logo_b.svg')}}" alt=""/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
 
     <section class="about-section">
         <div class="container">
             <div class="row">
+                <div class="padding-left">
                 <div class="about-row">
                     <div class="col-xs-12">
                         <div class="about-col col-sm-6">
@@ -45,6 +49,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -52,6 +57,7 @@
     <section class="about-section about-section-second">
         <div class="container">
             <div class="row">
+                <div class="padding-left">
                 <div class="about-row about-row-left">
                     <div class="col-xs-12">
                         <div class="col-sm-4"></div>
@@ -63,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </section>
@@ -70,6 +77,7 @@
     <section class="about-section about-section-third">
         <div class="container">
             <div class="row">
+                <div class="padding-left">
                 <div class="about-row">
                     <div class="col-xs-12">
                         <div class="col-sm-8">
@@ -80,9 +88,11 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </section>
+    </div>
 
     <section class="register-section">
         <div class="container">
@@ -105,9 +115,9 @@
                 <div class="col-xs-12">
                     <div class="social-network-col text-center">
                         <ul>
-                            <li><a href="javascriptavoiid"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
-                            <li><a href="#"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
-                            <li><a href="#"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
+                            <li><a target="blank" href="https://twitter.com/myelsielife"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
+                            <li><a target="blank" href="https://www.facebook.com/myelsielife/"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
+                            <li><a target="blank" href="https://www.instagram.com/myelsielife/"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
                         </ul>
                     </div>
                     <div class="copy-right-col">
@@ -128,7 +138,7 @@
                     </button>
                     @if(session('success'))
                         <span>Thank you for registering your interest. We will be in touch with updates very soon.</span>
-                    elseif(session('error'))
+                    @elseif(session('error'))
                         <span>Error from MailChimp</span>
                     @else
                     <h2>Ready to make managing your life easier?</h2>
@@ -136,7 +146,7 @@
                         <form method="post" action="{{url('/subscribe')}}" >
                         {{ csrf_field() }}
                             <div class="form-group">
-                                <input class="form-control" name="first_name" type="text" placeholder="Name">
+                                <input class="form-control" name="first_name" type="text" placeholder="First Name">
                             </div>
                             <div class="form-group">
                                 <input class="form-control" name="last_name" type="text" placeholder="Last Name">
