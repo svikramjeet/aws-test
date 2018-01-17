@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://use.typekit.net/wtx1oeo.css">
     <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
-
+   
 
 </head>
     <body>
-
+  
     <header>
         <div class="container">
             <div class="row">
@@ -126,6 +126,9 @@
                     <button type="button" class="close" data-dismiss="modal">
                         <img src="{{url('images/ic_close_16.svg')}}" alt=""/>
                     </button>
+                    @if(session('success'))
+                        <span>Thank you for registering your interest. We will be in touch with updates very soon.</span>
+                    @else
                     <h2>Ready to make managing your life easier?</h2>
                     <div class="modal-form">
                         <form method="post" action="{{url('/subscribe')}}" >
@@ -144,6 +147,7 @@
                             </div>
                         </form>
                     </div>
+                    @endif
                 </div>                
             </div>      
         </div>
@@ -152,7 +156,13 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{url('js/bootstrap.min.js')}}"></script>
-
+     @if(session('success'))
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#myModal").modal('show');
+        });
+    </script>
+    @endif
   
     </body>
 </html>
