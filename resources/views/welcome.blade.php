@@ -143,7 +143,7 @@
                     @else
                     <h2>Ready to make managing your life easier?</h2>
                     <div class="modal-form">
-                        <form method="post" action="{{url('/subscribe')}}" >
+                        <form method="post" action="{{url('/subscribe')}}" id="subscribe_form">
                         {{ csrf_field() }}
                             <div class="form-group">
                                 <input class="form-control" name="first_name" type="text" placeholder="First Name">
@@ -168,6 +168,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="{{url('js/bootstrap.min.js')}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="{{url('/')}}/js/custom.js"></script>
      @if(session('success'))
     <script type="text/javascript">
         $(document).ready(function(){
