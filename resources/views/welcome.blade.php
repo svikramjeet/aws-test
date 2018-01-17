@@ -109,18 +109,19 @@
                     </button>
                     <h2>Ready to make managing your life easier?</h2>
                     <div class="modal-form">
-                        <form>
+                        <form method="post" action="{{url('/subscribe')}}" >
+                        {{ csrf_field() }}
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Name">
+                                <input class="form-control" name="first_name" type="text" placeholder="Name">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Last Name">
+                                <input class="form-control" name="last_name" type="text" placeholder="Last Name">
                             </div>
                             <div class="form-group">
-                                <input class="form-control" type="text" placeholder="Email Address">
+                                <input class="form-control" name="email" type="text" placeholder="Email Address">
                             </div>
                             <div class="form-group text-center">
-                                <input class="btn btn-primary" type="button" value="Register Now">
+                                <input class="btn btn-primary" type="submit" value="Register Now">
                             </div>
                         </form>
                     </div>

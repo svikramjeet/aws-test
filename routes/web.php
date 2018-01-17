@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('subscribe',['as'=>'subscribe','uses'=>'MailChimpController@subscribe']);
+Route::post('subscribe', 'MailChimpController@subscribe');
