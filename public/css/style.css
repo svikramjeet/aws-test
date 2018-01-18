@@ -76,6 +76,7 @@ h2 {
 .btn-primary:focus,
 .btn-primary:active {
 	background-color: #19B2D1;
+	outline: none;
 }
 
 .btn-primary.active.focus, 
@@ -299,6 +300,7 @@ footer {
 	position: absolute;
     right: 16px;
     top: 12px;
+    outline: none;
 }
 
 .register-modal .close:hover {
@@ -513,6 +515,9 @@ span.error-msg {
 	}
 	.about-section-third .about-row {
     	padding-bottom: 82px;
+	}
+	.register-modal .modal-body h2 {
+		font-size: 24px;
 	}
 }
 
