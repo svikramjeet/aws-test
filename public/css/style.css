@@ -521,7 +521,16 @@ span.error-msg {
 		line-height: 26px;
 	}
 	.register-modal .modal-body {
-		padding: 30px;
+		padding: 25px;
+	}
+	.form-group {
+    	position: relative;
+    	margin: 20px 0 0;
+	}
+	span.error-msg {
+	    bottom: -17px;
+	    font-size: 12px;
+	    position: absolute;
 	}
 }
 
