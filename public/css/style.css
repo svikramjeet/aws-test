@@ -76,6 +76,7 @@ h2 {
 .btn-primary:focus,
 .btn-primary:active {
 	background-color: #19B2D1;
+	outline: none;
 }
 
 .btn-primary.active.focus, 
@@ -221,7 +222,7 @@ header {
 	content: '';
 	background: linear-gradient(132.1deg, #06064F 0%, #1CBFE0 100%);
 	width: 16px;
-	height: 250px;
+	height: 100%;
 	border-radius: 8px;
 	left: -20px;
 
@@ -243,7 +244,6 @@ header {
 }
 
 .about-row-left .service-col:before {
-	height: 224px;
 	left: -15px;
 }
 
@@ -300,6 +300,7 @@ footer {
 	position: absolute;
     right: 16px;
     top: 12px;
+    outline: none;
 }
 
 .register-modal .close:hover {
@@ -445,7 +446,19 @@ span.error-msg {
 	}
 }
 
-@media only screen and (max-width:990px) {
+@media only screen and (min-width:768px) and (max-width:990px) {
+	.about-row::after {
+    	background-size: 65% auto;
+	}
+	.service-col {
+    	margin: 70px 0 120px 25px;
+	}
+	.about-section-third .service-col {
+    	margin: 0 0 120px 10px;
+	}
+}
+
+@media only screen and (max-width:767px) {
 	.about-row::after {
 		display: none;
 	}
@@ -458,9 +471,6 @@ span.error-msg {
 	.mobile-view-img {
 		display: block;
 	}
-}
-
-@media only screen and (max-width:767px) {
 	.register-modal .modal-dialog {
 		width: auto;
 	}
@@ -491,14 +501,10 @@ span.error-msg {
 	.service-col {
     	margin: 51px 0 0 24px;
 	}
-	.service-col::before {
-		height: 320px;
-	}
 	.about-row-left .service-col {
 		margin: 51px 0 0 24px;
 	}
 	.about-row-left .service-col::before {
-		height: 320px;
 		left: -20px;
 	}
 	.about-section-third .service-col {
@@ -509,6 +515,22 @@ span.error-msg {
 	}
 	.about-section-third .about-row {
     	padding-bottom: 82px;
+	}
+	.register-modal .modal-body h2 {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.register-modal .modal-body {
+		padding: 25px;
+	}
+	.form-group {
+    	position: relative;
+    	margin: 20px 0 0;
+	}
+	span.error-msg {
+	    bottom: -17px;
+	    font-size: 12px;
+	    position: absolute;
 	}
 }
 
@@ -528,9 +550,5 @@ span.error-msg {
 	.register-modal .modal-body {
     	padding: 30px 20px;
 	}
-	.register-modal .modal-body h2 {
-    	font-size: 20px;
-    	line-height: 28px;
-	}	
 }
 
