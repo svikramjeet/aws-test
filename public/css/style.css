@@ -532,6 +532,12 @@ span.error-msg {
 	    font-size: 12px;
 	    position: absolute;
 	}
+	.head-register-btn {
+		text-align: center;
+	}
+	.service-col h2 {
+		font-size: 20px;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -541,6 +547,9 @@ span.error-msg {
 	.btn-primary {
 		font-size: 14px;
 	}
+	.about-col h1 {
+		padding: 0 10px 0 0;
+	}
 }
 
 @media only screen and (max-width:360px) {
@@ -549,6 +558,12 @@ span.error-msg {
 	}
 	.register-modal .modal-body {
     	padding: 30px 20px;
+	}
+}
+
+@media only screen and (max-width:340px) {
+	.about-col h1 {
+		padding: 0px;
 	}
 }
 

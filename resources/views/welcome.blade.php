@@ -52,7 +52,9 @@
                             </div>
                             <h1>Making everyday life easier.</h1>
                             <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
-                            <a class="btn btn-primary signup-form" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
+                            <div class="head-register-btn">
+                                <a class="btn btn-primary signup-form" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xs-12">
