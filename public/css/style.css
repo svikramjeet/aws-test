@@ -373,6 +373,15 @@ footer {
 	margin: 8px 0px 0px 0px;
 }
 
+.mobile-view-img {
+	display: none;
+}
+
+span.error-msg {
+	color: red;
+	font-size: 14px;
+}
+
 @media only screen and (min-width: 320px) {
   .modal {
 	  text-align: center;
@@ -413,7 +422,7 @@ footer {
 		background-position: right center;
 	}
 	.about-row-left:after {
-		background-position: right center;
+		background-position: left center;
 	}
 	.about-col p {
 		font-size: 21px;
@@ -429,9 +438,25 @@ footer {
 	}
 	.service-col p {
     	line-height: 28px;
+    	font-size: 17px;
 	}
 	.about-section-third .service-col {
 		margin: 0px 0 120px 35px;
+	}
+}
+
+@media only screen and (max-width:990px) {
+	.about-row::after {
+		display: none;
+	}
+	.padding-left {
+		padding: 0px;
+	}
+	.register-col::after {
+		display: none;
+	}
+	.mobile-view-img {
+		display: block;
 	}
 }
 
@@ -441,6 +466,58 @@ footer {
 	}
 	.register-modal .modal-dialog {
 		width: 320px;
+	}
+	header {
+    	padding: 20px 0 0;
+	}
+	.about-section {
+    	margin: 18px 0 0 0px;
+	}
+	.about-col h1 {
+    	font-size: 32px;
+    	line-height: 40px;
+    	margin: 24px 0px;
+	}
+	.about-col p {
+		font-size: 20px;	
+		font-weight: 300;	
+		line-height: 28px;
+		margin: 0 0 24px 0px;
+	}
+	.service-col p {
+		font-size: 16px;	
+		line-height: 24px;
+	}
+	.service-col {
+    	margin: 51px 0 0 24px;
+	}
+	.service-col::before {
+		height: 320px;
+	}
+	.about-row-left .service-col {
+		margin: 51px 0 0 24px;
+	}
+	.about-row-left .service-col::before {
+		height: 320px;
+		left: -20px;
+	}
+	.about-section-third .service-col {
+		margin: 51px 0 0 10px;
+	}
+	.about-section-third .service-col p {
+		padding: 0px;
+	}
+	.about-section-third .about-row {
+    	padding-bottom: 82px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.logo img {
+		width: 96px;
+	}
+	.btn-primary {
+		font-size: 14px;
 	}
 }
 
@@ -454,6 +531,6 @@ footer {
 	.register-modal .modal-body h2 {
     	font-size: 20px;
     	line-height: 28px;
-	}
+	}	
 }
 
