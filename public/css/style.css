@@ -517,7 +517,11 @@ span.error-msg {
     	padding-bottom: 82px;
 	}
 	.register-modal .modal-body h2 {
-		font-size: 24px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.register-modal .modal-body {
+		padding: 30px;
 	}
 }
 
@@ -537,9 +541,5 @@ span.error-msg {
 	.register-modal .modal-body {
     	padding: 30px 20px;
 	}
-	.register-modal .modal-body h2 {
-    	font-size: 20px;
-    	line-height: 28px;
-	}	
 }
 
