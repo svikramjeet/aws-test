@@ -1,12 +1,24 @@
 var validatation_messages = {
+    first_name: {
+        required: "Please enter your first name"
+    },
+    last_name: {
+        required: "Please enter your last name"
+    },
     email: {
-        required: "Email field is required.",
-        email: "Please enter a valid email address.",
-        regx: "Please enter a valid email address."
+        required: "Please enter your email address",
+        email: "Please enter a valid email address",
+        regx: "Please enter a valid email address"
     }
 };
 
 var validation_rules = {
+    first_name: {
+        required: true
+    },
+    last_name: {
+        required: true
+    },
     email: {
         required: true,
         email: true,
@@ -20,10 +32,14 @@ $(function() {
         errorElement: 'span',
         errorClass: 'error-msg',
         rules: {
+            first_name: validation_rules.first_name,
+            last_name: validation_rules.last_name,
             email: validation_rules.email,
         },
 
         messages: {
+            first_name: validatation_messages.first_name,
+            last_name: validatation_messages.last_name,
             email: validatation_messages.email
         }
     })
