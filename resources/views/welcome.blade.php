@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12">
-                        <div class="service-col col-sm-6">
+                        <div class="service-col col-sm-7 col-md-6">
                             <h2>Simplify life</h2>
                             <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
                         </div>
@@ -64,7 +64,7 @@
                 <div class="about-row about-row-left">
                     <div class="col-xs-12">
                         <div class="col-sm-4"></div>
-                        <div class="col-sm-6 no-pad">
+                        <div class="col-sm-8 col-md-6 no-pad">
                             <div class="mobile-view-img text-center">
                                 <img src="{{url('images/mobile_image02.png')}}" alt=""/>
                             </div>
@@ -124,9 +124,9 @@
                 <div class="col-xs-12">
                     <div class="social-network-col text-center">
                         <ul>
-                            <li><a target="blank" href="https://twitter.com/myelsielife"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
-                            <li><a target="blank" href="https://www.facebook.com/myelsielife/"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
-                            <li><a target="blank" href="https://www.instagram.com/myelsielife/"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
+                            <li><a target="_blank" href="https://twitter.com/myelsielife"><img src="{{url('images/ic_twitter.svg')}}" alt=""/></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/myelsielife"><img src="{{url('images/ic_facebook.svg')}}" alt=""/></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/myelsielife"><img src="{{url('images/ic_insta.svg')}}" alt=""/></a></li>
                         </ul>
                     </div>
                     <div class="copy-right-col">
