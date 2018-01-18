@@ -165,13 +165,13 @@
                         <form method="post" action="{{url('/subscribe')}}" id="subscribe_form">
                         {{ csrf_field() }}
                             <div class="form-group">
-                                <input class="form-control" name="first_name" type="text" placeholder="First Name">
+                                <input class="form-control" name="first_name" type="text" placeholder="First Name"/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" name="last_name" type="text" placeholder="Last Name">
+                                <input class="form-control" name="last_name" type="text" placeholder="Last Name"/>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" name="email" type="text" placeholder="Email Address">
+                                <input class="form-control" name="email" type="text" placeholder="Email Address"/>
                             </div>
                             <div class="form-group text-center">
                                 <input class="btn btn-primary" type="submit" value="Register Now">
