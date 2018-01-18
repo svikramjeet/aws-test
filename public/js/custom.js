@@ -28,7 +28,7 @@ var validation_rules = {
 
 $(function() {
     //Admin login details validations
-    $("#subscribe_form").validate({
+    var validator = $("#subscribe_form").validate({
         errorElement: 'span',
         errorClass: 'error-msg',
         rules: {
@@ -42,5 +42,9 @@ $(function() {
             last_name: validatation_messages.last_name,
             email: validatation_messages.email
         }
+    })
+
+    $('.signup-form').on('click',function(){
+        validator.resetForm();
     })
 });
