@@ -502,10 +502,22 @@ span.error-msg {
 		left: -20px;
 	}
 	.about-section-third .service-col {
-		margin: 51px 0 0 24px;
+		margin: 51px 0 0 10px;
 	}
 	.about-section-third .service-col p {
 		padding: 0px;
+	}
+	.about-section-third .about-row {
+    	padding-bottom: 82px;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.logo img {
+		width: 96px;
+	}
+	.btn-primary {
+		font-size: 14px;
 	}
 }
 
@@ -519,9 +531,6 @@ span.error-msg {
 	.register-modal .modal-body h2 {
     	font-size: 20px;
     	line-height: 28px;
-	}
-	.logo img {
-		width: 96px;
-	}
+	}	
 }
 
