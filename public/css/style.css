@@ -557,6 +557,9 @@ span.error-msg {
 	.about-col p {
 		line-height: 24px;
 	}
+	.about-col img {
+		width: 250px;
+	}
 }
 
 @media only screen and (max-width:360px) {
