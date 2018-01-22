@@ -6,10 +6,10 @@
     <meta name="author" content="">
 
     <title>Elsie | Making everyday life easier</title>
-    <link rel="icon" href="{{url('images/favicon.png')}}" type="image/x-icon"/>
+    <link rel="icon" href="{{url('images/favicon.png',[],env('APP_SSL'))}}" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.typekit.net/wtx1oeo.css">
-    <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{url('css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.min.css',[],env('APP_SSL'))}}">
+    <link rel="stylesheet" type="text/css" href="{{url('css/style.css',[],env('APP_SSL'))}}">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +32,7 @@
                     <div class="padding-left">
                         <div class="col-xs-12">
                             <div class="logo">
-                                <a href="#"><img src="{{url('images/logo_b.svg')}}" alt=""/></a>
+                                <a href="#"><img src="{{url('images/logo_b.svg',[],env('APP_SSL'))}}" alt=""/></a>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                     <div class="col-xs-12">
                         <div class="about-col col-sm-6">
                             <div class="mobile-view-img text-center">
-                                <img src="{{url('images/mobile_image01.png')}}" alt=""/>
+                                <img src="{{url('images/mobile_image01.png',[],env('APP_SSL'))}}" alt=""/>
                             </div>
                             <h1>Making everyday life easier.</h1>
                             <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
@@ -78,11 +78,11 @@
                         <div class="col-sm-4"></div>
                         <div class="col-sm-8 col-md-6 no-pad">
                             <div class="mobile-view-img text-center">
-                                <img src="{{url('images/mobile_image02.png')}}" alt=""/>
+                                <img src="{{url('images/mobile_image02.png',[],env('APP_SSL'))}}" alt=""/>
                             </div>
                             <div class="service-col">                                
                                 <h2>Be in control</h2>
-                                <p>Gain deep insight into your current usage and spending through Elsie's amazing visuals. Elsie tells you what you need to know when you need to know it. You always end up with the best deals as Elsie acts a marketplace for suppliers and vendors to bid for your business.</p>
+                                <p>Gain deep insight into your current usage and spending through Elsie's amazing visuals. Elsie tells you what you need to know when you need to know it. You always end up with the best deals as Elsie acts as a marketplace for suppliers and vendors to bid for your business.</p>
                             </div>
                         </div>
                     </div>
@@ -99,12 +99,12 @@
                 <div class="about-row">
                     <div class="col-xs-12">
                         <div class="mobile-view-img text-center">
-                            <img src="{{url('images/mobile_image03.png')}}" alt=""/>
+                            <img src="{{url('images/mobile_image03.png',[],env('APP_SSL'))}}" alt=""/>
                         </div>
                         <div class="col-sm-8">
                             <div class="service-col ">
                                 <h2>Stay protected</h2>
-                                <p>Elsie makes you super organised and it's as simple as that. By connecting your home, it's contents and your accounts Elsie will ensure that nothing is neglected. Elsie highlights the areas requiring your attention and provides you with all the actions you need to take to ensure that you, your family and the things you care about are always protected.</p>
+                                <p>Elsie makes you super organised and it's as simple as that. By connecting your home, its contents and your accounts Elsie will ensure that nothing is neglected. Elsie highlights the areas requiring your attention and provides you with all the actions you need to take to ensure that you, your family and the things you care about are always protected.</p>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@
             <div class="modal-content">                
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal">
-                        <img src="{{url('images/ic_close_16.svg')}}" alt=""/>
+                        <img src="{{url('images/ic_close_16.svg',[],env('APP_SSL'))}}" alt=""/>
                     </button>
                     @if(session('success'))
                         <span>Thank you for registering your interest. We will be in touch with updates very soon.</span>
