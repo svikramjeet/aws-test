@@ -549,6 +549,16 @@ span.error-msg {
 	}
 	.about-col h1 {
 		padding: 0 10px 0 0;
+		margin: 14px 0px;
+	}
+	header {
+    	padding: 10px 0 0 0px;
+	}
+	.about-col p {
+		line-height: 24px;
+	}
+	.about-col img {
+		width: 220px;
 	}
 }
 
