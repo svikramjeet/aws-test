@@ -45,6 +45,7 @@ $(function() {
     })
 
     $('.signup-form').on('click',function(){
+        fbq('track', 'Lead');
         validator.resetForm();
     })
 });

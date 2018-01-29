@@ -39,9 +39,7 @@
 
 
 </head>
-<script>
- fbq('track', 'Lead');
-</script>
+
     <body>
 
     <div class="custom-container">
