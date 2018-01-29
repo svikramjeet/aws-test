@@ -33,10 +33,6 @@ jobs:
       - image: postgres:9.6.2
     steps:
       - checkout
-      - run:
-          name: Install System Dependencies
-          command: |
-            sudo apt-get install wget && sudo apt-get update -qq
       - run: bash .circleci/setup-heroku.sh
       - add_ssh_keys:
           fingerprints:
