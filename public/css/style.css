@@ -158,14 +158,7 @@ header {
 }
 
 .about-row-left:after {
-	background-image: url("../images/image02.png");
-    background-repeat: no-repeat;
-    content: "";
-    height: 477px;
-    left: 0px;
-    position: absolute;
-    top: -120px;
-    width: 368px;
+	display: none;
 }
 
 .about-col {
@@ -187,22 +180,19 @@ header {
 }
 
 .about-section-third {
-	margin: 132px 0px 0px 0px;
+	margin: 0px;
 }
 
 .about-section-third .about-row {
-	padding-bottom: 195px;
+	padding-bottom: 300px;
 }
 
 .about-section-third .about-row:after {
-	background-image: url("../images/image03.png");
-	width: 425px;
-	height: 509px;
-	top: -71px;
+	display: none;
 }
 
 .about-section-third .service-col  {
-	margin: 0px 0 120px 100px;
+	margin: 0 0 0 73px;
 }
 
 .about-section-third .service-col p {
@@ -212,7 +202,7 @@ header {
 .service-col {
 	padding: 0px;
 	position: relative;
-	margin: 152px 0 120px 113px;
+	margin: 152px 0 120px 20px;
 	padding: 0px 0 0 20px;
 }
 
@@ -243,6 +233,10 @@ header {
 	position: relative;
 }
 
+.about-row-left {
+	padding: 0 0 0 15px;
+}
+
 .about-row-left .service-col:before {
 	left: -15px;
 }
@@ -253,7 +247,7 @@ header {
 }
 
 footer {
-	padding: 40px 0px 40px 0px;
+	padding: 50px 0px 40px 0px;
 }
 
 .social-network-col ul {
@@ -381,6 +375,47 @@ footer {
 span.error-msg {
 	color: red;
 	font-size: 14px;
+}
+
+.flex-col {
+	display: flex;
+  	display: -webkit-flex;
+  	flex-direction: column;
+    -webkit-flex-direction: column;
+  	justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.control-content-col {
+	min-height: 450px;
+}
+
+.dashboard-section {
+	padding: 17px 0 75px;
+}
+
+.dashboard-left-img {
+	min-height: 500px;
+	position: relative;
+}
+
+.dashboard-left-col p {
+	color: #9797A3;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	text-align: right;
+}
+
+.dashboard-left-img .dashboard-left-col {
+	bottom: -135px;
+    position: absolute;
+    right: -90px;
+    z-index: 9;
+}
+
+.dashboard-custom-col {
+	width: 780px;
 }
 
 @media only screen and (min-width: 320px) {
@@ -538,6 +573,9 @@ span.error-msg {
 	.service-col h2 {
 		font-size: 20px;
 	}
+	.financials-pic img {
+		width: 360px;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -559,6 +597,9 @@ span.error-msg {
 	}
 	.about-col img {
 		width: 220px;
+	}
+	.financials-pic img {
+		width: 100%;
 	}
 }
 

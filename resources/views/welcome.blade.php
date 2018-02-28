@@ -57,79 +57,110 @@
             </div>
         </header>
 
-    <section class="about-section">
-        <div class="container">
-            <div class="row">
-                <div class="padding-left">
-                <div class="about-row">
-                    <div class="col-xs-12">
-                        <div class="about-col col-sm-6">
-                            <div class="mobile-view-img text-center">
-                                <img src="{{url('images/mobile_image01.png',[],env('APP_SSL'))}}" alt=""/>
+        <section class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="padding-left">
+                    <div class="about-row">
+                        <div class="col-xs-12">
+                            <div class="about-col col-sm-6">
+                                <div class="mobile-view-img text-center">
+                                    <img src="{{url('images/mobile_image01.png',[],env('APP_SSL'))}}" alt=""/>
+                                </div>
+                                <h1>Make everyday life easier.</h1>
+                                <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
+                                <div class="head-register-btn">
+                                    <a class="btn btn-primary signup-form" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
+                                </div>
                             </div>
-                            <h1>Making everyday life easier.</h1>
-                            <p>Simplify life, be in control, and protect the people and possessions you care about.</p>
-                            <div class="head-register-btn">
-                                <a class="btn btn-primary signup-form" href="javascript:void();" data-toggle="modal" data-target="#myModal">Register for early access</a>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="service-col col-sm-7 col-md-6">
+                                <h2>Simplify life</h2>
+                                <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12">
-                        <div class="service-col col-sm-7 col-md-6">
-                            <h2>Simplify life</h2>
-                            <p>Elsie provides a consolidated view of everyday life, working in the background to manage the small details as well as those bigger tasks which are all too often left to the last minute or forgotten all together. Whether it's remembering renewal dates, attending family events or finding your warranty details Elsie has you covered.</p>
-                        </div>
                     </div>
-                </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="about-section about-section-second">
-        <div class="container">
-            <div class="row">
-                <div class="padding-left">
-                <div class="about-row about-row-left">
-                    <div class="col-xs-12">
-                        <div class="col-sm-4"></div>
-                        <div class="col-sm-8 col-md-6 no-pad">
-                            <div class="mobile-view-img text-center">
-                                <img src="{{url('images/mobile_image02.png',[],env('APP_SSL'))}}" alt=""/>
+        <section class="dashboard-section">
+            <div class="container">
+                <div class="row">
+                    <div class="padding-left">
+                        <div class="col-xs-12 col-sm-3">
+                            <div class="flex-col dashboard-left-img">
+                                <div class="dashboard-left-col">
+                                    <img width="360" src="{{url('images/image03.png',[],env('APP_SSL'))}}" alt=""/>
+                                </div>
                             </div>
-                            <div class="service-col">                                
-                                <h2>Be in control</h2>
-                                <p>Gain deep insight into your current usage and spending through Elsie's amazing visuals. Elsie tells you what you need to know when you need to know it. You always end up with the best deals as Elsie acts as a marketplace for suppliers and vendors to bid for your business.</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-9 dashboard-custom-col">
+                            <div class="dashboard-left-col">
+                                <img src="{{url('images/ex_dashboard.png',[],env('APP_SSL'))}}" alt=""/>
+                                <p>One dashboard for everything that matters to you and your family.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="about-section about-section-third">
-        <div class="container">
-            <div class="row">
-                <div class="padding-left">
-                <div class="about-row">
-                    <div class="col-xs-12">
-                        <div class="mobile-view-img text-center">
-                            <img src="{{url('images/mobile_image03.png',[],env('APP_SSL'))}}" alt=""/>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="service-col ">
-                                <h2>Stay protected</h2>
-                                <p>Elsie makes you super organised and it's as simple as that. By connecting your home, its contents and your accounts Elsie will ensure that nothing is neglected. Elsie highlights the areas requiring your attention and provides you with all the actions you need to take to ensure that you, your family and the things you care about are always protected.</p>
+        <section class="about-section about-section-second">
+            <div class="container">
+                <div class="row">
+                    <div class="padding-left">
+                        <div class="about-row about-row-left">
+                            <div class="col-xs-12">
+                                <div class="col-sm-8 col-md-6 no-pad">
+                                    <div class="flex-col control-content-col">
+                                        <div class="service-col">                                
+                                            <h2>Be in control</h2>
+                                            <p>Gain deep insight into your current usage and spending through Elsie's amazing visuals. Elsie tells you what you need to know when you need to know it. You always end up with the best deals as Elsie acts as a marketplace for suppliers and vendors to bid for your business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 col-md-6 about-col-left">
+                                    <div class="financials-pic text-center">
+                                        <img src="{{url('images/ex_financials.png',[],env('APP_SSL'))}}" alt=""/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="about-section about-section-third">
+            <div class="container">
+                <div class="row">
+                    <div class="padding-left">
+                        <div class="about-row">
+                            <div class="col-xs-12">
+                                <div class="col-xs-12 col-sm-4">
+                                    <img src="{{url('images/ex_vehicle.png',[],env('APP_SSL'))}}" alt=""/>
+                                </div>
+                                <div class="mobile-view-img text-center">
+                                    <img src="{{url('images/mobile_image03.png',[],env('APP_SSL'))}}" alt=""/>
+                                </div>
+                                <div class="col-xs-12 col-sm-8">
+                                    <div class="flex-col control-content-col">
+                                        <div class="service-col">
+                                            <h2>Stay protected</h2>
+                                            <p>Elsie makes you super organised and it's as simple as that. By connecting your home, it's contents and your accounts Elsie will ensure that nothing is neglected. Elsie highlights the areas requiring your attention and provides you with all the actions you need to take to ensure that you, your family and the things you care about are always protected.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
     </div>
 
     <section class="register-section">
