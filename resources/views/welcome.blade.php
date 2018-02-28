@@ -89,17 +89,28 @@
         <section class="dashboard-section">
             <div class="container">
                 <div class="row">
-                    <div class="padding-left">
-                        <div class="col-xs-12 col-sm-3">
-                            <div class="flex-col dashboard-left-img">
+                    <div class="hidden-xs">
+                        <div class="padding-left">
+                            <div class="col-xs-12 col-sm-3">
+                                <div class="flex-col dashboard-left-img">
+                                    <div class="dashboard-left-col">
+                                        <img width="360" src="{{url('images/image03.png',[],env('APP_SSL'))}}" alt=""/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-9 dashboard-custom-col">
                                 <div class="dashboard-left-col">
-                                    <img width="360" src="{{url('images/image03.png',[],env('APP_SSL'))}}" alt=""/>
+                                    <img src="{{url('images/ex_dashboard.png',[],env('APP_SSL'))}}" alt=""/>
+                                    <p>One dashboard for everything that matters to you and your family.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-9 dashboard-custom-col">
-                            <div class="dashboard-left-col">
-                                <img src="{{url('images/ex_dashboard.png',[],env('APP_SSL'))}}" alt=""/>
+                    </div>
+                    <div class="hidden-sm hidden-md hidden-lg">
+                        <div class="col-xs-12">
+                            <div class="mobile-dashboard-col">
+                                <img width="114" src="{{url('images/image03.png',[],env('APP_SSL'))}}" alt=""/>
+                                <img class="dashboard-res-img" src="{{url('images/ex_dashboard.png',[],env('APP_SSL'))}}" alt=""/>
                                 <p>One dashboard for everything that matters to you and your family.</p>
                             </div>
                         </div>
@@ -114,7 +125,7 @@
                     <div class="padding-left">
                         <div class="about-row about-row-left">
                             <div class="col-xs-12">
-                                <div class="col-sm-8 col-md-6 no-pad">
+                                <div class="col-sm-6 col-md-6 no-pad">
                                     <div class="flex-col control-content-col">
                                         <div class="service-col">                                
                                             <h2>Be in control</h2>
@@ -122,7 +133,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4 col-md-6 about-col-left">
+                                <div class="col-sm-6 col-md-6 about-col-left">
                                     <div class="financials-pic text-center">
                                         <img src="{{url('images/ex_financials.png',[],env('APP_SSL'))}}" alt=""/>
                                     </div>
@@ -140,18 +151,17 @@
                     <div class="padding-left">
                         <div class="about-row">
                             <div class="col-xs-12">
-                                <div class="col-xs-12 col-sm-4">
-                                    <img src="{{url('images/ex_vehicle.png',[],env('APP_SSL'))}}" alt=""/>
-                                </div>
-                                <div class="mobile-view-img text-center">
-                                    <img src="{{url('images/mobile_image03.png',[],env('APP_SSL'))}}" alt=""/>
-                                </div>
-                                <div class="col-xs-12 col-sm-8">
+                                <div class="col-xs-12 col-sm-6 col-md-8 pull-right">
                                     <div class="flex-col control-content-col">
                                         <div class="service-col">
                                             <h2>Stay protected</h2>
                                             <p>Elsie makes you super organised and it's as simple as that. By connecting your home, it's contents and your accounts Elsie will ensure that nothing is neglected. Elsie highlights the areas requiring your attention and provides you with all the actions you need to take to ensure that you, your family and the things you care about are always protected.</p>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4 pull-left">
+                                    <div class="stay-protect-pic">
+                                        <img src="{{url('images/ex_vehicle.png',[],env('APP_SSL'))}}" alt=""/>
                                     </div>
                                 </div>
                             </div>

@@ -481,6 +481,42 @@ span.error-msg {
 	}
 }
 
+@media only screen and (min-width: 991px) and (max-width: 1129px) {
+	.padding-left {
+		padding: 0 0 0 2%;
+	}
+	.stay-protect-pic img {
+		width: 330px;
+	}
+	.control-content-col {
+		min-height: 420px;
+	}
+	.dashboard-custom-col {
+		width: 75%;
+	}
+	.dashboard-custom-col img {
+		width: 100%;
+	}
+	.dashboard-left-img .dashboard-left-col {
+		bottom: -20px;
+	}
+	.dashboard-left-img .dashboard-left-col img {
+		width: 220px;
+	}
+	.dashboard-left-img {
+		min-height: 520px;
+	}
+	.service-col {
+    	margin: 70px 0 50px 25px;
+	}
+	.about-section-third .service-col {
+    	margin: 0 0 0 35px;
+	}
+	.dashboard-section {
+    	padding: 90px 0 75px;
+	}
+}
+
 @media only screen and (min-width:768px) and (max-width:990px) {
 	.about-row::after {
     	background-size: 65% auto;
@@ -489,7 +525,37 @@ span.error-msg {
     	margin: 70px 0 120px 25px;
 	}
 	.about-section-third .service-col {
-    	margin: 0 0 120px 10px;
+    	margin: 0 0 0 10px;
+	}
+	.about-section-third .service-col p {
+		padding: 0px;
+	}
+	.padding-left {
+		padding: 0px;
+	}
+	.stay-protect-pic img {
+		width: 330px;
+	}
+	.control-content-col {
+		min-height: 420px;
+	}
+	.dashboard-custom-col {
+		width: 75%;
+	}
+	.dashboard-custom-col img {
+		width: 100%;
+	}
+	.dashboard-left-img .dashboard-left-col {
+		bottom: -80px;
+	}
+	.dashboard-left-img .dashboard-left-col img {
+		width: 220px;
+	}
+	.dashboard-left-img {
+		min-height: 360px;
+	}
+	.service-col {
+    	margin: 70px 0 50px 25px;
 	}
 }
 
@@ -534,7 +600,8 @@ span.error-msg {
 		line-height: 24px;
 	}
 	.service-col {
-    	margin: 51px 0 0 24px;
+    	margin: 48px 0 0 24px;
+    	padding: 0 0 0 20px;
 	}
 	.about-row-left .service-col {
 		margin: 51px 0 0 24px;
@@ -576,6 +643,85 @@ span.error-msg {
 	.financials-pic img {
 		width: 360px;
 	}
+	.service-col:before {
+		width: 8px;
+		left: -11px;
+	}
+	.about-col {
+    	padding: 0 9px;
+    }
+    .dashboard-left-img {
+    	display: block;
+    	min-height: auto;
+    }
+    .dashboard-section {
+    	padding: 32px 0 0;
+	}
+	.dashboard-section .padding-left {
+		text-align: center;
+	}
+	.dashboard-left-img .dashboard-left-col {
+    	left: 55px;
+    	position: absolute;
+    	top: 80px;
+    	z-index: 9;
+    	right: inherit;
+	}
+	.dashboard-left-img .dashboard-left-col img {
+		width: 114px;
+	}
+	.dashboard-custom-col {
+		width: 100%;
+	}
+	.dashboard-custom-col .dashboard-left-col img {
+		width: 235px;
+	}
+	.stay-protect-pic {
+		text-align: center;
+	}
+	.stay-protect-pic img {
+		width: 310px;
+	}
+	.mobile-dashboard-col {
+		text-align: center;
+		position: relative;
+		width: 100%;
+		float: left;
+	}
+	.mobile-dashboard-col .dashboard-res-img {
+		width: 233px;
+		margin: 0 0 0 100px;
+	}
+	.mobile-dashboard-col img:first-child {
+		margin: 0 0 0 10px;
+    	position: absolute;
+    	top: 80px;
+	}
+	.mobile-dashboard-col p {
+		width: 100%;
+		float: left;
+		color: #9797A3;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 24px;
+		text-align: center;
+		margin: 50px 0 0;
+	}
+	.control-content-col {
+		min-height: auto;
+		margin: 15px 0 0;
+	}
+	.control-content-col .service-col {
+		padding: 0 0 0 10px;
+		margin: 0 0 0 24px;
+	}
+	.financials-pic,
+	.stay-protect-pic {
+		margin: 32px 0 0;
+	}
+	.about-section-third .about-row {
+		padding-bottom: 48px;
+	}
 }
 
 @media only screen and (max-width:480px) {
@@ -584,10 +730,12 @@ span.error-msg {
 	}
 	.btn-primary {
 		font-size: 14px;
+		max-width: 320px;
+		width: 100%;
 	}
 	.about-col h1 {
-		padding: 0 10px 0 0;
-		margin: 14px 0px;
+		padding: 0 70px 0 0;
+		margin: 24px 0 24px;
 	}
 	header {
     	padding: 10px 0 0 0px;
@@ -610,11 +758,21 @@ span.error-msg {
 	.register-modal .modal-body {
     	padding: 30px 20px;
 	}
+	.stay-protect-pic img {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width:340px) {
 	.about-col h1 {
 		padding: 0px;
+	}
+	.mobile-dashboard-col .dashboard-res-img {
+    	width: 180px;
+    }
+    .mobile-dashboard-col img:first-child {
+    	margin: 0 0 0 10px;
+    	top: 60px;
 	}
 }
 
