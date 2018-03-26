@@ -1,0 +1,31 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Entered the install phase...
+      - apt-get update -y
+      - apt-get install -y maven
+      - apt-get -f install
+      - apt-get install wget
+      - apt install -y libpq-dev git vim libpng-dev
+      - sudo docker-php-ext-install pdo pdo_pgsql gd
+  pre_build:
+    commands:
+      - echo Install Composer
+      - sudo composer self-update
+      - composer install --prefer-source --no-interaction --dev
+  build:
+    commands:
+      - echo Entered the build phase...
+      - echo Build started on `date`
+      - mvn install
+  post_build:
+    commands:
+      - echo Check Rejected Commits
+      -  ./deploy
+ artifacts:
+   files:
+     - '**/*'
+
+
