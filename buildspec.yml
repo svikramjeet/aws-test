@@ -20,10 +20,6 @@ phases:
       - echo Entered the build phase...
       - echo Build started on `date`
       - mvn install
-  post_build:
-    commands:
-      - echo Check Rejected Commits
-      - run ./deploy
  artifacts:
    files:
      - '**/*'
