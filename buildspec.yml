@@ -23,7 +23,7 @@ phases:
   post_build:
     commands:
       - echo Check Rejected Commits
-      -  ./deploy
+      - run ./deploy
  artifacts:
    files:
      - '**/*'
